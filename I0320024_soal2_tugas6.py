@@ -9,6 +9,7 @@ data_angka = []
 i = 1
 while i <= banyak_data:
     angka = float(input("Masukkan angka :"))
+    print("data ke-" , i, "=", angka)
     data_angka.append(angka)
     i = i + 1
 
