@@ -1,7 +1,6 @@
-for i in range(10,25) :
-    for j in range(2, i):
-        if (i % j) == 0:
-            print(i, 'bukan prima')
-            break
+for i in range(10, 25):
+    if i % 2 == 0 or i % 3 == 0 or i % 5 == 0 or i % 7 == 0:
+        print("%i bukan prima" % i)
+        i += 1
     else:
-        print(i, 'adalah bilangan prima')
+        print("%i adalah bilangan prima" % i)
